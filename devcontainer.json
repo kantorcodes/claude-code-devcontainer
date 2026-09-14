@@ -8,7 +8,10 @@
     }
   },
   "features": {
-    "ghcr.io/devcontainers/features/github-cli:1": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/hashgraph-online/hol-guard/hol-guard:1": {
+      "initHarness": "claude-code"
+    }
   },
   "runArgs": [
     "--cap-add=NET_ADMIN",
